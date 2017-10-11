@@ -1,0 +1,22 @@
+{
+    "name":"tierko/canonical",
+    "type":"magento-module",
+    "version":"1.0.0",
+    "license":"",
+    "description": "module for adding canonical link in head",
+    "authors": [
+        {
+            "name": "Tierko (Maxim Sukhov)",
+            "email": "tierko96@gmail.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/community/Tierko/Canonical", "app/code/community/Tierko/Canonical"],
+            ["app/etc/modules/Tierko_Canonical.xml", "app/etc/modules/Tierko_Canonical.xml"]
+        ]
+    }
+}

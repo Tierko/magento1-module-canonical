@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tierko_Canonical>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Tierko_Canonical>
+    </modules>
+</config>
